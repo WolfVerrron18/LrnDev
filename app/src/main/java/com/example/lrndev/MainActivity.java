@@ -24,8 +24,8 @@ public class MainActivity extends AppCompatActivity {
         puma.color = "Black";
         puma.breathe();
         puma.talk();
-        puma.iaAlive = true;
-        Log.i("isAlive()", String.valueOf(puma.iaAlive));
+        puma.isAlive = true;
+        Log.i("isAlive()", String.valueOf(puma.isAlive));
         Log.i("breathe()", "My name is " + puma.name + " and " + puma.breathe());
     }
 }

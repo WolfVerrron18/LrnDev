@@ -4,7 +4,7 @@ import android.util.Log;
 
 public class Animal {
     int numberOfLegs;
-    boolean iaAlive;
+    boolean isAlive;
 
     public String breathe() {
          return "I can breathe";
