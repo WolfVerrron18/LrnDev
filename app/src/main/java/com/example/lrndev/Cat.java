@@ -2,11 +2,15 @@ package com.example.lrndev;
 
 import android.util.Log;
 
-public class Cat {
+public class Cat extends Animal {
     int age;
     String name;
     String breed;
     String color;
+
+    public Cat() {
+
+    }
 
     public Cat(int age, String name, String breed, String color) {
         this.age = age;
@@ -16,6 +20,6 @@ public class Cat {
     }
 
     public void talk() {
-        Log.i("talkCat()", "Name = " + name + ", Age = " + age + ", Breed = " + breed + ", Color = " + color);
+        Log.i("talk()", "Name = " + name + ", Age = " + age + ", Breed = " + breed + ", Color = " + color);
     }
 }
