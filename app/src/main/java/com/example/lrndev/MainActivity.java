@@ -3,7 +3,6 @@ package com.example.lrndev;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.util.Log;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -16,7 +15,15 @@ public class MainActivity extends AppCompatActivity {
 
         Cat milka = new Cat(0, "Milka", "'British'", "Grey");
         milka.talk();
-        milka.talk(10);
-        milka.talk("I love you");
+
+        Puma bagira = new Puma();
+        bagira.talk();
+
+        Cat puma = new Puma();
+        puma.talk();
+
+        Cat murzik = new Lion();
+        murzik.talk();
+
     }
 }

@@ -9,7 +9,8 @@ public class Cat extends Animal {
     private String color;
 
     public Cat() {
-
+        this.name = "John Snow";
+        this.age = 12;
     }
 
     public Cat(int age, String name, String breed, String color) {
@@ -20,7 +21,7 @@ public class Cat extends Animal {
     }
 
     public void talk() {
-        Log.i("talk()", "Name = " + name + ", Age = " + age + ", Breed = " + breed + ", Color = " + color);
+        Log.i("talk()", "Meow, I`m Cat " + "Name = " + name + ", Age = " + age + ", Breed = " + breed + ", Color = " + color);
     }
 
     public void talk(int count) {

@@ -1,12 +1,9 @@
 package com.example.lrndev;
 
-public class Puma extends Cat{
-    public Puma(int age, String name) {
-        this.age = age;
-        this.name = name;
-    }
+import android.util.Log;
 
-    public void someMethod() {
-        this.age = 10;
+public class Puma extends Cat{
+    public void talk() {
+        Log.i("talk()", "R-r-r, I`, Puma " + "Name = " + name + ", Age = " + age);
     }
 }
