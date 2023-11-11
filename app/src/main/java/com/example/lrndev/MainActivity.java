@@ -17,11 +17,7 @@ public class MainActivity extends AppCompatActivity {
         myCat = new Cat(30, "oleg", "shpiz", "yellow");
         myCat.talk();
 
-        Puma puma = new Puma();
-        puma.name = "Leo";
-        puma.age = 109332;
-        puma.breed = "Vanya";
-        puma.color = "Black";
+        Puma puma = new Puma(109332,"Leo");
         puma.breathe();
         puma.talk();
         puma.isAlive = true;
