@@ -14,14 +14,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        myCat = new Cat(30, "oleg", "shpiz", "yellow");
-        myCat.talk();
-
-        Puma puma = new Puma(109332,"Leo");
-        puma.breathe();
-        puma.talk();
-        puma.isAlive = true;
-        Log.i("isAlive()", String.valueOf(puma.isAlive));
-        Log.i("breathe()", "My name is " + puma.name + " and " + puma.breathe());
+        Cat milka = new Cat(0, "Milka", "'British'", "Grey");
+        milka.talk();
+        milka.talk(10);
+        milka.talk("I love you");
     }
 }

@@ -22,4 +22,12 @@ public class Cat extends Animal {
     public void talk() {
         Log.i("talk()", "Name = " + name + ", Age = " + age + ", Breed = " + breed + ", Color = " + color);
     }
+
+    public void talk(int count) {
+        Log.i("Meow()", "I said " + count + " meow");
+    }
+
+    public void talk(String hello) {
+        Log.i("Hello()", "Meow, " + hello);
+    }
 }
